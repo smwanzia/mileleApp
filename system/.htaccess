@@ -1,0 +1,19 @@
+//Deny from all
+
+<IfModule mod_rewrite.c>
+ReweiteEngine On
+
+RewriteBase /TUMCMS/
+RewriteCond %{REQUEST_URL} ^system.*
+RewriteRule ^(.*)& /index.php?&1 [L]
+
+RewriteCond %{REQUEST_URI} ^application.*
+RewriteRule ^(.*)& /index.php?/&1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+</IFMOdule>
+<IFModule !mod_rewrite.c>
+ErrorDocument 404 /index.php
+<IFModule>

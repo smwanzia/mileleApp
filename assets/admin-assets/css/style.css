@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 20, 2018, 10:45:08 PM
+    Author     : xmore mmohz
+*/
+
+#news_image_wrap{
+   height: 244px;
+  width: 257px;
+ // margin-left: 116px;
+  background-position: top;
+  background-image: cover;
+  background-image: 400px;
+  background-position: center center;
+  //border-radius: 16px;
+ // background-color: #f5f5f5;
+  //background-position-y: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+    }
+    .input_wraps{
+      // background-color: #f5f5f5;
+       // border: 1px solid #e3e3e3;
+        //height: 214px;
+    }
+    .product_camera{
+     font-size: 34px;
+    padding: 3px;
+    /* margin: 70px; */
+    text-align: center;
+    position: relative;
+    left: 2px;
+    right: 28px;
+    top: 96px;
+    }
+
+
+
+    
+<style>
+#right-bar{
+    background-color: #F2F2F2;
+    border-style: solid;
+    border-color: #CCC;
+    border-width: 0 1px 0 0;
+    width:152px;
+
+}
+.right-sidebar{
+    background-color: #F2F2F2;
+    border-style: solid;
+    border-color: #CCC;
+    border-width: 0 1px 0 0;
+    width:152px;
+
+}
+.sidebar-list {
+    border-color: #CCC;
+
+}
+.sidebar-list  li{
+  list-style: none;
+  text-decoration: none;
+  border-top-color: #E4E4E4;
+  background-color: #F2F2F2;
+  border-color: #E5E5E5;
+  border-width: 1px 0 0;
+  padding:8px;
+  display: block;
+  position: relative;
+  float: none;
+  padding: 0;
+  border-style: solid;
+  border-width: 1px 0 0;
+
+}
+
+.sidebar-list  li a{
+  display: block;
+  position: relative;
+ // padding: 7px 0 9px 37px;
+  height: 39px;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 17px;
+  color:#000;
+  padding-left: 0px;
+  text-shadow: none !important;
+  font-size: 14px;
+  padding-top: 11px;
+}
+.sidebar-list  li a:hover{
+  color:#000;
+  background-color: #fff;
+  border-left: 3px solid #337ab7;;
+
+}
+.sidebar-list  li a:focus{
+  text-decoration: none;
+  list-style: none;
+}
+.panel{
+  margin-top:-22px;
+}
+.myh1{
+  text-align: center;
+  margin-bottom: -27px;
+}
+</style>
